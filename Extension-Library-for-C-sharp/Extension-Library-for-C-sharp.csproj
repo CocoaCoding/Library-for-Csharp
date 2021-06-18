@@ -48,7 +48,7 @@
     <Compile Include="Extensions\string.extension.cs" />
     <Compile Include="Extensions\StringParsingExtensions.cs" />
     <Compile Include="Extensions\StringSearchExtensions.cs" />
-    <Compile Include="Helper\DateTimeHelper.cs" />
+    <Compile Include="Parser\DateTimeParser.cs" />
     <Compile Include="Helper\FormatHelper.cs" />
     <Compile Include="Helper\XmlHelper.cs" />
     <Compile Include="Program.cs" />
@@ -57,5 +57,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

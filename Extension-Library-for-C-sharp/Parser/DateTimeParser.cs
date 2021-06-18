@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hinzberg.Helper.Date
+namespace Hinzberg.Helper.Parser
 {
-    public static class DateTimeHelper
+    public static class DateTimeParser
     {
         /// <summary>
         /// Creates DateTime from a YYYY-MM string
