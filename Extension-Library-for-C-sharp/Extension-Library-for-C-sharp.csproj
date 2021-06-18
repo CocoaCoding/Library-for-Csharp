@@ -48,6 +48,8 @@
     <Compile Include="Extensions\string.extension.cs" />
     <Compile Include="Extensions\StringParsingExtensions.cs" />
     <Compile Include="Extensions\StringSearchExtensions.cs" />
+    <Compile Include="Helper\DateTimeHelper.cs" />
+    <Compile Include="Helper\FormatHelper.cs" />
     <Compile Include="Helper\XmlHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
