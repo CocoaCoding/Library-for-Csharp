@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0F4065A4-E1D9-4963-881B-40DA3FE09535}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Extension_Library_for_C_sharp</RootNamespace>
+    <RootNamespace>Hinzberg</RootNamespace>
     <AssemblyName>Extension-Library-for-C-sharp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -53,6 +53,8 @@
     <Compile Include="Helper\XmlHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WPF_Commands\DelegateCommand.cs" />
+    <Compile Include="WPF_Commands\DelegateCommandSimple.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

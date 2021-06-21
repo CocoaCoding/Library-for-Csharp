@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Extension-Library-for-C-sharp\Extension-Library-for-C-sharp.csproj">
+    <ProjectReference Include="..\Extension-Library-for-C-sharp\Library_for_Csharp.csproj">
       <Project>{0f4065a4-e1d9-4963-881b-40da3fe09535}</Project>
-      <Name>Extension-Library-for-C-sharp</Name>
+      <Name>Library_for_Csharp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
